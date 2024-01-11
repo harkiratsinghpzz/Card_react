@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2; /* Light background color for the entire webpage */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #f2f2f2; /* Match the background color of the webpage */
+    padding: 20px;
+}
+
+.card {
+    border: 4px solid rgb(219, 20, 20);
+    width: 400px;
+    padding: 15px;
+    background-color: #fff; /* Background color for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(0, 123, 255);
+}
+
+.card-body {
+    margin-top: 15px;
+    flex: 1;
+}
+
+.card-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-body p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.card-footer {
+    margin-top: 15px;
+}
+
+.card-footer h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: rgb(40, 167, 69);
+}
