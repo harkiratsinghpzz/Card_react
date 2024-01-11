@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-    border: 4px solid rgb(219, 20, 20);
+    border: 4px solid rgb(20, 219, 156);
     width: 400px;
     padding: 15px;
     background-color: #fff; /* Background color for the card */
